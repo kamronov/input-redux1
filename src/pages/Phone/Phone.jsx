@@ -25,8 +25,8 @@ function Phone() {
     <div>
       <h1>Phone</h1>
       <form onSubmit={collect2} action="#">
-        <input type="text" name='phone' placeholder='Phone number'/> <br />
-        <input type="text" name='age' placeholder='Age'/> <br />
+        <input autoComplete='off' type="text" name='phone' placeholder='Phone number'/> <br />
+        <input autoComplete='off' type="text" name='age' placeholder='Age'/> <br />
         <button>Next</button>
       </form>
     </div>

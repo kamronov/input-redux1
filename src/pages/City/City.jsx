@@ -27,8 +27,8 @@ function City() {
     <div>
       <h1>City</h1>
       <form onSubmit={collect3} action="#">
-        <input type="text" name='city' placeholder='city'/> <br />
-        <input type="text" name='country' placeholder='country'/> <br />
+        <input autoComplete='off' type="text" name='city' placeholder='city'/> <br />
+        <input autoComplete='off' type="text" name='country' placeholder='country'/> <br />
         <button>Get Info</button>
       </form>
     {selector.user[2].city!==''?<Footer/>:null}

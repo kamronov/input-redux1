@@ -25,8 +25,8 @@ function Fio() {
     <div>
         <h1>Fio</h1>
       <form onSubmit={collect1} action="#">
-        <input type="text" name='name' placeholder='Name'/> <br />
-        <input type="text" name='lastName' placeholder='LastName'/> <br />
+        <input autoComplete='off' type="text" name='name' placeholder='Name'/> <br />
+        <input autoComplete='off' type="text" name='lastName' placeholder='LastName'/> <br />
         <button>Next</button>
       </form>
     
